@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Menu</title>
+    <style>
+        .first ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0%;
+
+        }
+        .first ul li a{
+            text-decoration: none;
+            padding: 8px 16px;
+            display: block;
+            width: 65px;
+            background-color: pink;
+            
+        }
+        .first ul li a:hover{
+            background-color: aqua;
+            color: #000;
+        }
+
+        .first ul li a.active{
+            background-color: rgb(147, 240, 178);
+            color: rgb(17, 14, 247);
+        }
+        .second ul{
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+        }
+        .second ul li a{
+            text-decoration: none;
+            padding: 10px 14px;
+            width: 65px;
+            background-color: #a4ebeb;
+            
+        }
+        .second ul li{
+            display: inline;
+            
+
+        }
+        
+        .second ul li a:hover{
+            background-color: pink;
+            color: brown;
+        }
+        .second ul li a.active{
+            background-color: rgb(185, 145, 248);
+            color: rgb(17, 14, 247);
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Vertical Menu</h3>
+    <div class="first">
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Activities</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <hr>
+    <h3>Horizontal Menu / Navigation</h3>
+    <div class="second">
+        <ul>
+            <li><a href=""class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Activities</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
