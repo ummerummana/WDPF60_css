@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:first-child {
+            color: blue;
+        }
+        p:last-child{
+            color: green;
+        }
+        p:only-child {
+            color: pink;
+        }
+
+        li:nth-child(2){
+            background-color: rgb(229, 158, 243);
+            color: red;
+        }
+        li:nth-child(4){
+            background-color: aquamarine;
+            color: rgb(131, 3, 3);
+        }
+        
+    </style>
+</head>
+<body>
+   <div> 
+    <p>This is first paragraph inside Body tag</p>
+    <p>This is second paragraph inside Body tag</p>
+    <p>This is third paragraph inside Body tag</p>
+</div>
+
+    <div>
+        <p>
+            This is first paragraph inside Body tag
+        </p>
+        <p>This is second paragraph inside Body tag</p>
+    </div>
+
+    <div>
+        <p>This is only paragraph inside div tag</p>
+    </div>
+    <ul>
+        <li>Bangladesh</li>
+        <li>Canada</li>
+        <li>Australia</li>
+        <li>Japan</li>
+    </ul>
+
+    <ol>
+        <li>Bangladesh</li>
+        <li>Canada</li>
+        <li>Australia</li>
+        <li>Japan</li>
+    </ol>
+</body>
+</html>
