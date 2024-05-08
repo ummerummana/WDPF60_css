@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: rgb(177, 255, 255);
+}
+
+#wrapper{
+    width: 1050px;
+    margin: 0 auto;
+    height: 820px;
+    border: 1px solid rgb(134, 131, 131);
+}
+
+.banner{
+    height: 80px;
+    background-color: rgb(54, 158, 172);
+    padding: 30px;
+
+}
+
+.banner h1{
+    text-align: center;
+}
+
+.brand{
+    background-image: url(../Image/logo6.jpg);
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    
+}
+.search {
+    position: absolute;
+    right: 430px;
+}
+
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    padding: 6px;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+.navbar ul li{
+    display: inline;
+}
+
+ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+}
+.navbar ul li a:hover{
+    background-color: rgb(255, 135, 181);
+}
+
+.leftbar {
+    width: 19%;
+    float: left;
+    border-right: 1px solid grey;
+    height: 550px;
+    padding: 25px;
+    line-height: 50px;
+    background-color: rgb(236, 236, 227);
+}
+
+.content {
+    float: left;
+    width: 70%;
+    padding: 15px;
+}
+
+.footer {
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+
+
+
