@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body {
+    background-color: rgb(12, 12, 12);
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    height: 900px;
+    border: 1px solid rgb(73, 72, 72);
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 55, 55);
+}
+
+.logo {
+    background-image: url(../Images/k2.png);
+    width: 259px;
+    height: 194px;
+}
+.title {
+    color: aqua;
+}
+.title h1 {
+    color: rgb(250, 229, 38);
+}
+
+.search {
+    margin-right: 15px;
+}
+
+.navbar {
+    display: flex;
+    border: 1px solid;
+    background-color: rgb(250, 229, 38);
+
+}
+
+.navbar div{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(38, 25, 109);
+    
+}
+.navbar div a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color: red;
+    
+}
+.container {
+    display: flex;
+}
+.leftmenu {
+    width: 30%;
+    border-right: 1px solid rgb(73, 72, 72);
+    height: 500px;
+    padding: 40px;
+    color: white;
+}
+.leftmenu a {
+    color: white;
+}
+
+.content {
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+}
+ .content p{
+    color: white;
+ }
